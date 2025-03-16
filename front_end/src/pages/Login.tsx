@@ -20,6 +20,23 @@ const Login = () => {
             placeholder="Enter your password"
           />
           <Button text="Login" onClick={() => {}} />
+          <button
+            // onClick={handleGoogleSignIn}
+            className="border border-gray-500 border-opacity-50 my-2 flex items-center justify-center w-full bg-white hover:bg-gray-200 text-gray-700 font-medium py-2 rounded-lg transition duration-200"
+          >
+            <img
+              src="https://www.svgrepo.com/show/303108/google-icon-logo.svg"
+              alt="Google"
+              className="w-6 h-6 mr-2"
+            />
+            Login with Google
+          </button>
+          <a
+            className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800 padding-8"
+            href="#"
+          >
+            Forgot Password?
+          </a>
         </form>
       </div>
     </div>
